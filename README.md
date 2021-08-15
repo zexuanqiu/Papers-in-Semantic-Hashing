@@ -1,8 +1,8 @@
-## Semantic Hashing
+# Semantic Hashing
 
 By representing every data item with a compact binary code $b \in \{0, 1\}^L$​ that preserves the similarity information of items, the hashing technique can significantly reduce the memory footprint and increase the search efficiency by working in the binary Hamming space.
 
-### Papers In NLP (text data)
+## Papers In NLP (text data)
 
 - [Ou, Zijing, et al. "Integrating Semantics and Neighborhood Information with Graph-Driven Generative Models for Document Retrieval." *the 59th Annual Meeting of the Association for Computational Linguistics (ACL)*.  2021.](https://arxiv.org/pdf/2105.13066.pdf)
   - In **SMUH**, a neighborhood-preserving prior is used, which is reflected in the covariance matrix of the Gaussian distribution. The neighborhood information (i.e., the graph)  is constructed from the raw features (e.g., TF-IDF) of oiringal documents. To enable training, it uses a tree-structured distribution to partially capture the neighborhood information.
@@ -40,7 +40,7 @@ By representing every data item with a compact binary code $b \in \{0, 1\}^L$​
 - [Charikar, Moses S. "Similarity estimation techniques from rounding algorithms." *Proceedings of the thiry-fourth annual ACM symposium on Theory of computing (STOC)*. 2002.](https://dl.acm.org/doi/pdf/10.1145/509907.509965?casa_token=XemET-V4jmkAAAAA:WX8sPzHML3hvUl_ckuXdneNKd9neZXDGHYrZHjPZNcg3BPBGiZM-OjpJs9kzFWP_YnBdBzY2_HpK)
   - The random-projection-based LSH (**RPLSH**)  projects the original real vectors onto $l$​​​​​-bit vectors by a random matrix from standard Gaussian distribution, and then converts them to binary hashing codes through the binarize operation. Its inputs is often the real vectors (e.g., the trained dense embedding), but not the raw data.
 
-### Papers In CV (image data)
+## Papers In CV (image data)
 
 - [Qiu, Zexuan, et al. "Unsupervised Hashing with Contrastive Information Bottleneck." *The 30th International Joint Conference on Artificial Intelligence (IJCAI)*. 2021.](https://arxiv.org/pdf/2105.06138.pdf)
   - **CIBHash** first attempts to adapt the contrastive learning to the task of hashing in an end-to-end manner. Further, By viewing the proposed model under the broader IB framework, a more general hashing method is obtained.
@@ -75,7 +75,7 @@ By representing every data item with a compact binary code $b \in \{0, 1\}^L$​
 - [Liu, W. , et al. "Hashing with Graphs." *Proceedings of the 28th International Conference on Machine Learning, ICML 2011, Bellevue, Washington, USA, June 28 - July 2, 2011* 2011.](https://icml.cc/2011/papers/6_icmlpaper.pdf)
   - **AGH**
 
-### Review Papers
+## Review Papers
 
 - [Cai, Deng. "A revisit of hashing algorithms for approximate nearest neighbor search." *IEEE Transactions on Knowledge and Data Engineering* (2019).](https://arxiv.org/pdf/1612.07545.pdf)
   - Most surprisingly, the performance of the simple random-projection-based Locality Sensitive Hashing (**LSH**) ranks the first among all the compared baselines when the code length is longer than 128.
