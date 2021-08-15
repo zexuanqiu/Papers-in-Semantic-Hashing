@@ -1,6 +1,6 @@
 # Semantic Hashing
 
-By representing every data item with a compact binary code $b \in \{0, 1\}^L$​ that preserves the similarity information of items, the hashing technique can significantly reduce the memory footprint and increase the search efficiency by working in the binary Hamming space.
+By representing every data item with a compact binary code $b that preserves the similarity information of items, the hashing technique can significantly reduce the memory footprint and increase the search efficiency by working in the binary Hamming space.
 
 ## Papers In NLP (text data)
 
